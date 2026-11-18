@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kontakt · Kolektor KOV</title>
+<link rel="icon" href="assets/src/favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="kontakt">
+<div data-nav></div>
+<main>
+  <section class="cta pad" style="min-height:auto;padding-top:clamp(160px,16vw,260px)">
+    <div class="cta__bg"><img src="assets/gen/spark-trails.jpg" alt=""></div>
+    <div class="cta__in">
+      <h1 class="d1"><span class="line-mask js-hero-line"><span>Začnimo</span></span><span class="line-mask js-hero-line"><span class="mute">projekt.</span></span></h1>
+      <div class="steps">
+        <div class="step"><b>Vprašalnik</b><p>Osnutek projekta in tehnične zahteve.</p></div>
+        <div class="step"><b>Ocena</b><p>Okvirna ocena, ogled ali sestanek.</p></div>
+        <div class="step"><b>Dogovor</b><p>Cena in vodja projekta do končne izdelave.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad" style="padding-top:clamp(40px,5vw,80px)">
+    <div class="split">
+      <form class="form rv">
+        <div class="field"><label for="f1">Ime in priimek</label><input id="f1" required></div>
+        <div class="field"><label for="f2">Podjetje</label><input id="f2"></div>
+        <div class="field"><label for="f3">E-naslov</label><input id="f3" type="email" required></div>
+        <div class="field"><label for="f4">Telefon</label><input id="f4" type="tel"></div>
+        <div class="field field--full"><label for="f5">Tehnične zahteve</label><textarea id="f5" placeholder="Opišite projekt, materiale, količine in roke."></textarea></div>
+        <div class="field--full"><button class="btn" style="border:0;cursor:pointer;font-family:inherit">Pošlji povpraševanje <svg viewBox="0 0 16 16" fill="none"><path d="M1 8h13M9 3l5 5-5 5" stroke="currentColor" stroke-width="1.6"/></svg></button></div>
+        <p class="form__ok">Hvala. Odgovorili vam bomo v najkrajšem možnem času.</p>
+      </form>
+      <div class="rv">
+        <a class="foot__mail" href="mailto:info@kov.si" style="display:block;font-size:clamp(32px,3.4vw,60px);font-weight:500;letter-spacing:-.035em">info@kov.si</a>
+        <a class="foot__mail" href="tel:+38645835745" style="display:block;font-size:clamp(32px,3.4vw,60px);font-weight:500;letter-spacing:-.035em;color:var(--mute)">+386 45 835 745</a>
+        <div class="specs" style="margin-top:40px">
+          <div class="specs__row"><span>Naslov</span><span>Cesta Franceta Prešerna 50, Jesenice</span></div>
+          <div class="specs__row"><span>Delovni čas</span><span>Pon do pet, 7:00 do 15:00</span></div>
+          <div class="specs__row"><span>Direktor</span><span>Janez Mulej, janez@kov.si</span></div>
+        </div>
+        <a class="media-wide rv" style="display:block;margin-top:32px;aspect-ratio:16/10" href="https://www.google.com/maps/search/?api=1&amp;query=Cesta+Franceta+Pre%C5%A1erna+50+Jesenice" target="_blank" rel="noopener"><img src="assets/gen/alps-steel.jpg" alt=""><span class="btn" style="position:absolute;left:24px;bottom:24px">Odpri zemljevid <svg viewBox="0 0 16 16" fill="none"><path d="M1 8h13M9 3l5 5-5 5" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-foot></div>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

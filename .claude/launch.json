@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "kov-redesign", "runtimeExecutable": "npx", "runtimeArgs": ["-y", "http-server@14.1.1", "/Users/lazarmilosevic/Desktop/kov", "-p", "4731", "-c-1", "-s"], "port": 4731, "autoPort": true }
+  ]
+}
